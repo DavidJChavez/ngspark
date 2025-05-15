@@ -1,0 +1,21 @@
+{
+  "name": "ngspark",
+  "version": "0.0.1",
+  "description": "CLI to scaffold Angular + Electron projects with hot reload.",
+  "bin": {
+    "ngspark": "./bin/index.ts"
+  },
+  "scripts": {
+    "dev": "bun run bin/index.ts"
+  },
+  "keywords": ["cli", "angular", "electron", "bun", "scaffold"],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/prompts": "^2.4.9",
+    "prompts": "^2.4.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
